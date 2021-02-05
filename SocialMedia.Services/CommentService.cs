@@ -42,11 +42,29 @@ namespace SocialMedia.Services
                         e => new CommentListItem
                         {
                             Id = e.Id,
-                            Text = e.Text
+                            Text = e.Text,
+                            Replies = e.Replies
 
                         });
                 return query.ToArray();
             }
+        }
+        public CommentDetail GetCommentById(int id)
+        {
+            using (var ctx = new ApplicationDbContext())
+            {
+                var entity = ctx
+                    .Comments
+                    .Single(e => e.Author == _authorId);
+                return
+                    new CommentDetail
+                    {
+                        Id = entity.Id,
+                        Author = entity.Author,
+                        Text = entity.Text,
+                        Replies = entity.Replies
+                    };
+            } 
         }
     }
 }
