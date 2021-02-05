@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SocialMedia.Data;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -11,5 +12,9 @@ namespace SocialMedia.Models
     {
         [Required]
         public string Text { get; set; }
+        [Required]
+        public int Id { get; set; }
+        public List<Reply> Replies { get; set; }
+        public Guid Author { get; set; }
     }
 }

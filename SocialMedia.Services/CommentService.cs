@@ -22,6 +22,7 @@ namespace SocialMedia.Services
                 {
                     Author = _authorId,
                     Text = model.Text,
+                    Id = model.Id
                 };
 
             using (var ctx = new ApplicationDbContext())
@@ -40,7 +41,8 @@ namespace SocialMedia.Services
                     .Select(
                         e => new CommentListItem
                         {
-                            Id = e.Id
+                            Id = e.Id,
+                            Text = e.Text
 
                         });
                 return query.ToArray();
