@@ -16,5 +16,6 @@ namespace SocialMedia.Data
         public string Text { get; set; }
         [Required]
         public Guid Author { get; set; }
+     
     }
 }
