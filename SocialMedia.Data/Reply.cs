@@ -8,10 +8,18 @@ using System.Threading.Tasks;
 
 namespace SocialMedia.Data
 {
-   public class Reply
+    public class Reply
     {
         [Key]
         public int Id { get; set; }
+        
+
+        [ForeignKey(nameof(Replies))]
+        public int ReplyId { get; set; }
+        
+        //navigation property
+        public virtual List<Reply> Replies { get; set; } = new List<Reply>();
+
         [Required]
         public string Text { get; set; }
         [Required]
