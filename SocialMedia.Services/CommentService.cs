@@ -289,7 +289,7 @@ namespace SocialMedia.Services
                         {
                             Id = e.Id,
                             Text = e.Text,
-                            Replies = e.Replies
+                            //Replies = e.Replies
 
                         });
                 return query.ToArray();
@@ -308,7 +308,7 @@ namespace SocialMedia.Services
                         Id = entity.Id,
                         Author = entity.Author,
                         Text = entity.Text,
-                        Replies = entity.Replies
+                        //Replies = entity.Replies
                     };
             } 
         }

@@ -12,18 +12,22 @@ namespace SocialMedia.Data
     {
         [Key]
         public int Id { get; set; }
-        
+       // [ForeignKey(nameof(Comment))]
+        //public int CommentId { get; set; }
+        //public virtual Comment Comment { get; set; }
 
-        [ForeignKey(nameof(Replies))]
-        public int ReplyId { get; set; }
-        
+
+        //[ForeignKey(nameof(Replies))]
+        //public int ReplyId { get; set; }
+       
+
         //navigation property
-        public virtual List<Reply> Replies { get; set; } = new List<Reply>();
+        //public virtual List<Reply> Replies { get; set; } = new List<Reply>();
 
         [Required]
         public string Text { get; set; }
         [Required]
         public Guid Author { get; set; }
-     
+
     }
 }

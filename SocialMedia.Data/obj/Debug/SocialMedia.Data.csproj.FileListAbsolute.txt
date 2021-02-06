@@ -71,3 +71,7 @@ C:\ElevenFiftyProjects\BlueBadge\SocialMedia\Social-Media\SocialMedia.Data\obj\D
 C:\ElevenFiftyProjects\BlueBadge\SocialMedia\Social-Media\SocialMedia.Data\obj\Debug\SocialMedia.Data.Migrations.InitialCreate.resources
 C:\ElevenFiftyProjects\BlueBadge\SocialMedia\Social-Media\SocialMedia.Data\obj\Debug\SocialMedia.Data.csproj.GenerateResource.cache
 C:\ElevenFiftyProjects\BlueBadge\SocialMedia\Social-Media\SocialMedia.Data\obj\Debug\SocialMedia.Data.Migrations.migrationAdded.resources
+C:\ElevenFiftyProjects\SocialMedia\SocialMedia.Data\obj\Debug\SocialMedia.Data.Migrations.InitialCreate.resources
+C:\ElevenFiftyProjects\SocialMedia\SocialMedia.Data\obj\Debug\SocialMedia.Data.Migrations.migrationAdded.resources
+C:\ElevenFiftyProjects\SocialMedia\SocialMedia.Data\obj\Debug\SocialMedia.Data.csproj.GenerateResource.cache
+C:\ElevenFiftyProjects\SocialMedia\SocialMedia.Data\obj\Debug\SocialMedia.Data.Migrations._1.resources
