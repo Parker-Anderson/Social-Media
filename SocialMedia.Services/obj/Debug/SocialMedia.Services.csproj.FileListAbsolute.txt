@@ -36,3 +36,9 @@ C:\ElevenFiftyProjects\BlueBadge\SocialMedia\Social-Media\SocialMedia.Services\b
 C:\ElevenFiftyProjects\BlueBadge\SocialMedia\Social-Media\SocialMedia.Services\bin\Debug\SocialMedia.Data.dll.config
 C:\ElevenFiftyProjects\BlueBadge\SocialMedia\Social-Media\SocialMedia.Services\bin\Debug\SocialMedia.Models.pdb
 C:\ElevenFiftyProjects\BlueBadge\SocialMedia\Social-Media\SocialMedia.Services\bin\Debug\SocialMedia.Models.dll.config
+C:\ElevenFiftyProjects\SocialMedia\SocialMedia.Services\bin\Debug\SocialMedia.Data.dll
+C:\ElevenFiftyProjects\SocialMedia\SocialMedia.Services\bin\Debug\SocialMedia.Models.dll
+C:\ElevenFiftyProjects\SocialMedia\SocialMedia.Services\bin\Debug\SocialMedia.Data.pdb
+C:\ElevenFiftyProjects\SocialMedia\SocialMedia.Services\bin\Debug\SocialMedia.Data.dll.config
+C:\ElevenFiftyProjects\SocialMedia\SocialMedia.Services\bin\Debug\SocialMedia.Models.pdb
+C:\ElevenFiftyProjects\SocialMedia\SocialMedia.Services\bin\Debug\SocialMedia.Models.dll.config
