@@ -5,21 +5,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SocialMedia.Data
+namespace SocialMedia.Models
 {
-    public class Post
+    public class PostCreate
     {
-        [Key]
-        public int Id { get; set; }
         [Required]
+        [MinLength(1, ErrorMessage = "Please enter at least 1 character.")]
+        [MaxLength(150, ErrorMessage = "Only 150 characters allowed in your post.")]
         public string Title { get; set; }
         [Required]
+        [MaxLength(8000)]
         public string Text { get; set; }
-        //[Required]
-        //public virtual List<Comment> Comments { get; set; } = new List<Comment>();
-        [Required]
         public Guid Author { get; set; }
-        public DateTimeOffset CreatedUtc { get; set; }
-        public DateTimeOffset? ModifiedUtc { get; set; }
     }
 }

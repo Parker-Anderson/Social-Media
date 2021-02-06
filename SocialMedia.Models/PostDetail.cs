@@ -5,21 +5,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SocialMedia.Data
+namespace SocialMedia.Models
 {
-    public class Post
+    public class PostDetail
     {
-        [Key]
         public int Id { get; set; }
-        [Required]
         public string Title { get; set; }
-        [Required]
         public string Text { get; set; }
-        //[Required]
-        //public virtual List<Comment> Comments { get; set; } = new List<Comment>();
-        [Required]
-        public Guid Author { get; set; }
+        public Guid Author { get; set; } 
+
+        [Display(Name = "Created")]
         public DateTimeOffset CreatedUtc { get; set; }
+        [Display(Name = "Modified")]
         public DateTimeOffset? ModifiedUtc { get; set; }
     }
 }
