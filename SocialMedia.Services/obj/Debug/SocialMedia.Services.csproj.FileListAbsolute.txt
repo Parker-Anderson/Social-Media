@@ -30,3 +30,9 @@ C:\ElevenFiftyProjects\BlueBadge\BlueBadge_Projects\SocialMedia\Social-Media\Soc
 C:\ElevenFiftyProjects\BlueBadge\BlueBadge_Projects\SocialMedia\Social-Media\SocialMedia.Services\obj\Debug\SocialMedia.Services.csproj.CopyComplete
 C:\ElevenFiftyProjects\BlueBadge\BlueBadge_Projects\SocialMedia\Social-Media\SocialMedia.Services\obj\Debug\SocialMedia.Services.dll
 C:\ElevenFiftyProjects\BlueBadge\BlueBadge_Projects\SocialMedia\Social-Media\SocialMedia.Services\obj\Debug\SocialMedia.Services.pdb
+C:\ElevenFiftyProjects\BlueBadge\BlueBadge_Projects\SocialMedia\Social-Media\SocialMedia.Services\bin\Debug\SocialMedia.Data.dll
+C:\ElevenFiftyProjects\BlueBadge\BlueBadge_Projects\SocialMedia\Social-Media\SocialMedia.Services\bin\Debug\SocialMedia.Models.dll
+C:\ElevenFiftyProjects\BlueBadge\BlueBadge_Projects\SocialMedia\Social-Media\SocialMedia.Services\bin\Debug\SocialMedia.Data.pdb
+C:\ElevenFiftyProjects\BlueBadge\BlueBadge_Projects\SocialMedia\Social-Media\SocialMedia.Services\bin\Debug\SocialMedia.Data.dll.config
+C:\ElevenFiftyProjects\BlueBadge\BlueBadge_Projects\SocialMedia\Social-Media\SocialMedia.Services\bin\Debug\SocialMedia.Models.pdb
+C:\ElevenFiftyProjects\BlueBadge\BlueBadge_Projects\SocialMedia\Social-Media\SocialMedia.Services\bin\Debug\SocialMedia.Models.dll.config
