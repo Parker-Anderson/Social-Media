@@ -44,6 +44,7 @@ namespace SocialMedia.Services
                         {
                             Id = e.Id,
                             Title = e.Title,
+                            Text = e.Text,
                             CreatedUtc = e.CreatedUtc
                         }
                         );
