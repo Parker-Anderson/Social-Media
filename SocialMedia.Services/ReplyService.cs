@@ -10,11 +10,11 @@ namespace SocialMedia.Services
 {
     public class ReplyService
     {
-        private readonly Guid _authorId;
+        private readonly Guid _userId;
 
-        public ReplyService(Guid AuthorId)
+        public ReplyService(Guid userId)
         {
-            _authorId = AuthorId;
+            _userId = userId;
         }
 
         public bool CreateReply(ReplyCreate model)
@@ -22,7 +22,7 @@ namespace SocialMedia.Services
             var entity =
                 new Reply()
                 {
-                    Author = _authorId,
+                    Author = _userId,
                     Text = model.Text,
                 };
 
@@ -39,7 +39,7 @@ namespace SocialMedia.Services
                 var query =
                     ctx
                         .Replies
-                        .Where(e => e.Author == _authorId)
+                        .Where(e => e.Author == _userId)
                         .Select(
                             e =>
                                 new ReplyListItem
@@ -51,6 +51,23 @@ namespace SocialMedia.Services
                         );
 
                 return query.ToArray();
+            }
+        }
+        public ReplyDetail GetReplyById(int id)
+        {
+            using (var ctx = new ApplicationDbContext())
+            {
+                var entity =
+                    ctx
+                        .Replies
+                        .Single(e => e.Id == id && e.Author == _userId);
+                return
+                    new ReplyDetail
+                    {
+                        Id = entity.Id,
+                        Text = entity.Text,
+                        
+                    };
             }
         }
     }
