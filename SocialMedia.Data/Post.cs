@@ -15,9 +15,11 @@ namespace SocialMedia.Data
         public string Title { get; set; }
         [Required]
         public string Text { get; set; }
+        //[Required]
+        //public virtual List<Comment> Comments { get; set; } = new List<Comment>();
         [Required]
         public Guid Author { get; set; }
-
-
+        public DateTimeOffset CreatedUtc { get; set; }
+        public DateTimeOffset? ModifiedUtc { get; set; }
     }
 }
